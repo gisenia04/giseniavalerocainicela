@@ -1,7 +1,7 @@
 const proyectos = [
   { 
     nombre: "Proyecto de Aplicacion Profesional", 
-    descripcion: "Fundamentos de un Proyecto Wev - Actividad 01", 
+    descripcion: "Fundamentos de un Proyecto Web - Actividad 01", 
     archivo: "proyectodeaplicacionprofesional.pdf" 
   },
     { 
@@ -69,4 +69,5 @@ window.addEventListener("click", e => {
     iframe.src = "";
   }
 });
+
 
