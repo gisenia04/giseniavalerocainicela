@@ -1,22 +1,22 @@
 const proyectos = [
   { 
     nombre: "Proyecto de Aplicacion Profesional", 
-    descripcion: "Actividad Semana 01", 
+    descripcion: "Fundamentos de un Proyecto Wev - Actividad 01", 
     archivo: "proyectodeaplicacionprofesional.pdf" 
   },
     { 
     nombre: "Proyecto de Aplicacion Profesional", 
-    descripcion: "Actividad Semana 02", 
+    descripcion: "Actores y Organizxacion del proyecto Web - Actividad 02", 
     archivo: "semanados.pdf" 
   } ,
   { 
     nombre: "Proyecto de Aplicacion Profesional", 
-    descripcion: "Primera Entrega TAP - Actividad Semana 03", 
+    descripcion: "Primera Entrega TAP - Actividad 03", 
     archivo: "Semanadosuno.pdf" 
   },
     { 
     nombre: "Proyecto de Aplicacion Profesional", 
-    descripcion: "Sistema de Investigacion - Actividad Semana 04", 
+    descripcion: "Sistema de Investigacion - Actividad 04", 
     archivo: "Semanatres.pdf" 
   } 
 ];
@@ -69,3 +69,4 @@ window.addEventListener("click", e => {
     iframe.src = "";
   }
 });
+
