@@ -18,7 +18,22 @@ const proyectos = [
     nombre: "Proyecto de Aplicacion Profesional", 
     descripcion: "Sistema de Investigacion - Actividad 04", 
     archivo: "Semanatres.pdf" 
-  } 
+  },
+    { 
+    nombre: "Proyecto de Aplicacion Profesional", 
+    descripcion: "Sistema de evaluacion - manual de administrador", 
+    archivo: "Manual de Administrador.pdf" 
+  },
+    { 
+    nombre: "Proyecto de Aplicacion Profesional", 
+    descripcion: "Sistema de evaluacion - manual de jefe de unidad didactica", 
+    archivo: "Manual - Jefe de area.pdf" 
+  },
+    { 
+    nombre: "Proyecto de Aplicacion Profesional", 
+    descripcion: "Sistema de evaluacion - manual de docentes", 
+    archivo: "Manual Docente.pdf" 
+  }   
 ];
 
 const gallery = document.getElementById("project-gallery");
@@ -69,5 +84,3 @@ window.addEventListener("click", e => {
     iframe.src = "";
   }
 });
-
-
